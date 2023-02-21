@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './users/user.entity';
-import { Profile } from './users/profile.entity';
+import { Profile } from './profiles/profile.entity';
 import { Post } from './posts/post.entity';
 import { PostsModule } from './posts/posts.module';
 import { ProfilesModule } from './profiles/profiles.module';
