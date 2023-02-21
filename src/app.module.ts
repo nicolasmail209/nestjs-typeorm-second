@@ -7,6 +7,7 @@ import { User } from './users/user.entity';
 import { Profile } from './users/profile.entity';
 import { Post } from './posts/post.entity';
 import { PostsModule } from './posts/posts.module';
+import { ProfilesModule } from './profiles/profiles.module';
 
 @Module({
   imports: [
@@ -26,7 +27,8 @@ import { PostsModule } from './posts/posts.module';
       ]
     }),
     UsersModule,
-    PostsModule],
+    PostsModule,
+    ProfilesModule],
   controllers: [AppController],
   providers: [AppService],
 })
